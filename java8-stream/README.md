@@ -117,7 +117,7 @@ List<Person> result = list.stream()
 截取流的前N个元素：
 
 ```java
-List<Person> result = list.stream()
+List<String> result = list.stream()
                     .limit(3)
                     .collect(toList());
 ```
