@@ -117,7 +117,7 @@ List<Person> result = list.stream()
 截取流的前N个元素：
 
 ```java
-List<String> result = list.stream()
+List<Person> result = list.stream()
                     .limit(3)
                     .collect(toList());
 ```
@@ -138,7 +138,7 @@ List<Person> result = list.stream()
 如，获取每个人的姓名(实则是将Perosn类型转换成String类型)：
 
 ```java
-List<Person> result = list.stream()
+List<String> result = list.stream()
                     .map(Person::getName)
                     .collect(toList());
 ```
